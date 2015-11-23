@@ -1,1 +1,49 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=0">
+    <title>Eli Jackson</title>   
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+    <!-- Add ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+     <!-- jQuery -->
+     <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <!-- Custom code -->
+    <script src="assets/js/main.js"></script>
+    <link href = "assets/css/app.css" rel="stylesheet" type = "text/css"/>
+  </head>
+  <body>
+    <div ng-app="myApp">
+      <header>
+        <!-- Create links to different sections -->
+          <h5>
+            Eli Jackson
+            <span id ="nav">      
+              <a class="btn btn-default" ui-sref="home">Home</a>
+              <a class="btn btn-default" ui-sref="about">About Me</a>
+              <a class="btn btn-default" ui-sref="projects">Projects</a>
+              <a  class="btn btn-default" ui-sref="contact">Contact</a>
+            </span>
+          </h5> 
+          
+  		</header>
+      <div class="container">
+        <!-- This is where your content will display -->
+        <div ui-view></div>
+      </div>
+      <footer>
+          <span>&copy; 2015, <a href ="mailto:elij@uw.edu">Eli Jackson</a></span>
+      </footer>
+    </div>
+  </body>
+</html>

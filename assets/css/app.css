@@ -1,0 +1,32 @@
+header {
+	border-bottom:1px solid #e3e3e3;
+	text-align: left;
+	padding-left:20px;
+}
+
+#nav{
+	text-align:right;
+	padding-left:20px;
+}
+
+.row{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.contact{
+	padding: 10px;
+}
+
+footer {
+	position:fixed;
+	bottom:10px;
+	border-top:1px solid #e3e3e3;
+	width:100%;
+	left:0px;
+	text-align:right;
+	padding:10px;
+}

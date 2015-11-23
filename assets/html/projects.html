@@ -1,0 +1,20 @@
+<!-- projects.html -->
+<div>
+	<div class ='row'>
+		<div class="col-xs-10">
+			<h2 ng-bind="projectsContent.title"></h2>
+		</div>
+  		<div class="col-xs-10">
+  			<h3>INFO 343</h3>
+  			<ul>
+  				<li ng-repeat="project in projectsContent.info343"><a href="{{project.url}}">{{project.title}}</a></li>
+  			</ul>
+  		</div>
+  		<div class="col-xs-10">
+  			<h3>INFO 101</h3>
+  			<ul>
+  				<li ng-repeat="project in projectsContent.info101"><a href="{{project.url}}">{{project.title}}</a></li>
+  			</l>
+  		</div>
+	</div>
+</div>
