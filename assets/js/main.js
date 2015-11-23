@@ -46,7 +46,6 @@ myApp.controller('HomeController', ['$scope','Data',function($scope,Data){
 myApp.controller('ProjectController',['$scope','Data',  function($scope,Data){
   Data.$loaded().then(function() {
         $scope.projectsContent = Data.projects;
-        console.log('projects',Data.projects.info343)
   });
 }]);
 
