@@ -7,7 +7,7 @@ var myApp = angular.module('myApp', ['ui.router','firebase'])
 .config(function($stateProvider) {
 	$stateProvider
 	.state('home', { // Landing page
-	  url:'/',
+	  url:'',
 	  templateUrl: 'assets/html/home.html', // HTML fragment
 	  controller: 'HomeController', // Which controller 
 	})
