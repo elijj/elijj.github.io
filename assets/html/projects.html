@@ -4,6 +4,12 @@
 		<div class="col-xs-10">
 			<h2 ng-bind="projectsContent.title"></h2>
 		</div>
+      <div class="col-xs-10">
+        <h3>INFO 424</h3>
+        <ul>
+          <li ng-repeat="project in projectsContent.info424"><a href="{{project.url}}">{{project.title}}</a></li>
+        </ul>
+      </div>
   		<div class="col-xs-10">
   			<h3>INFO 343</h3>
   			<ul>
