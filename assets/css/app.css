@@ -9,10 +9,6 @@ header {
 	padding-left:20px;
 }
 
-.row{
-	text-align: center;
-}
-
 .blurb{
 	padding-left: 20px;
 	padding-right: 20px;
@@ -22,17 +18,7 @@ header {
 	height: auto;
 	padding-left: 20px;
 }
-/*
-.ui{
-width: 400px ;
-  margin-left: auto ;
-  margin-right: auto ;
-}
 
-ul{
-	list-style: none;
-	padding-left: 0px;
-} */
 
 footer {
 	position:fixed;
@@ -40,10 +26,11 @@ footer {
 	border-top:1px solid #e3e3e3;
 	width:100%;
 	left:0px;
+	bottom: 0;
 	text-align:right;
 	padding:10px;
 	padding-left: 20px;
-	overflow: hidden;
+	background-color: white;
 }
 .linkedin{
 	width: auto;
@@ -51,7 +38,7 @@ footer {
 	float: left;
 }
 #git{
-	padding-left: 10px;
+	padding-left: 20px;
 }
 #uwpng{
 	width: 66%;
