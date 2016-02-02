@@ -42,8 +42,21 @@ footer {
 	left:0px;
 	text-align:right;
 	padding:10px;
+	padding-left: 20px;
 	overflow: hidden;
 }
+.linkedin{
+	width: auto;
+	height: 28px;
+	float: left;
+}
+#git{
+	padding-left: 10px;
+}
+
+.st0{fill:#FFFFFF;}
+
+.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#191717;}
 
 svg{
 	width: 122px;
