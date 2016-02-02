@@ -41,6 +41,7 @@ footer {
 	left:0px;
 	text-align:right;
 	padding:10px;
+	overflow: hidden;
 }
 
 /* Small devices (tablets, 768px and up) */
