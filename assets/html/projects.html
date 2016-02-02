@@ -1,24 +1,24 @@
 <!-- projects.html -->
-<div>
-	<div class ='row'>
-		<div class="col-xs-10">
+<div >
+	<div class ='center-block row container'>
+		<div  >
 			<h2 ng-bind="projectsContent.title"></h2>
 		</div>
-      <div class="col-xs-10">
+      <div  >
         <h3>INFO 424</h3>
-        <ul>
+        <ul class="list-unstyled">
           <li ng-repeat="project in projectsContent.info424"><a href="{{project.url}}">{{project.title}}</a></li>
         </ul>
       </div>
-  		<div class="col-xs-10">
+  		<div  >
   			<h3>INFO 343</h3>
-  			<ul>
+  			<ul class="list-unstyled">
   				<li ng-repeat="project in projectsContent.info343"><a href="{{project.url}}">{{project.title}}</a></li>
   			</ul>
   		</div>
-  		<div class="col-xs-10">
+  		<div  >
   			<h3>INFO 101</h3>
-  			<ul>
+  			<ul class="list-unstyled">
   				<li ng-repeat="project in projectsContent.info101"><a href="{{project.url}}">{{project.title}}</a></li>
   			</l>
   		</div>
