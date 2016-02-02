@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 9.2.1//EN
+N:Jackson ;Eli ;;;
+FN: Eli   Jackson  
+ORG:University of Washington;
+EMAIL;type=INTERNET;type=HOME;type=pref:elij@uw.edu
+TEL;type=HOME;type=VOICE;type=pref:1 (310) 344-1729
+item1.URL;type=pref:https://elijj.github.io
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
