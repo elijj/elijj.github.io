@@ -17,7 +17,9 @@ header {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+.head{
+	width: 400px;
+}
 /*
 .ui{
 width: 400px ;
