@@ -19,7 +19,7 @@ header {
 }
 #head{
 	width: 122px;
-	height: 81px;
+	height: auto;
 }
 /*
 .ui{
