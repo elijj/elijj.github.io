@@ -1,56 +1,123 @@
-header {
-	border-bottom:1px solid #e3e3e3;
-	text-align: left;
-	padding-left:20px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-#nav{
-	text-align:right;
-	padding-left:20px;
-}
-
-.blurb{
-	padding-left: 20px;
-	padding-right: 20px;
-}
-#head{
-	width: 122px;
-	height: auto;
-	padding-left: 20px;
-}
+html { 
+	background: url('/assets/png/background.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	}
+	
+	body{
+	color:#FFFFFF ;
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+	padding-top: 2vmin;
+	}
 
 
-footer {
-	position:fixed;
-	bottom:10px;
-	border-top:1px solid #e3e3e3;
-	width:100%;
-	left:0px;
-	bottom: 0;
-	text-align:right;
-	padding:10px;
-	padding-left: 20px;
-	background-color: white;
-}
 .linkedin{
-	width: auto;
-	height: 28px;
 	float: left;
-}
-#git{
-	padding-left: 40px;
-}
-#uwpng{
-	width: 66%;
-	height: auto;
-	padding-top: 20px;
+	
 }
 
-.st0{fill:#FFFFFF;}
+.center{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
 
-.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#191717;}
+.button{
+	display: inline-block;
+ }
+
+.st0{
+	fill:#FFFFFF;
+	fill-opacity: 0.0;
+}
+
+.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;
+	}
 
 svg{
-	width: 122px;
-	height: auto;
+	width: 4vmin;
+	height: 4vmin;
+	margin-right: 2vmin
 }
+
+a {
+	
+	color: white;
+
+	text-decoration: none;
+	text-transform: none;
+  }
+  
+  a:hover {
+	color: white;
+
+	text-decoration: none;
+	text-transform: none;
+  }
+  
+  a:active {
+	color: white;
+
+	text-decoration: none;
+	text-transform: none;
+  }
+  
+  a:visited {
+	color: white;
+
+	text-decoration: none;
+	text-transform: none;
+  }
+
+
+  .hello{
+		font-size: 18vmin;
+		
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.mail{
+		font-size:3vmin;
+		padding-left: 2vmin
+	}
+
+	.blurb{
+		font-weight:300;
+		font-size: 2.5vmin;
+		margin-top: -1vmin;
+	}
+
+	#cvButton{
+		padding-top: 6vmin;
+		font-size: 6vmin;
+	
+	}
+
+	button{
+		background-color: Transparent; 
+		width: 12vmin;
+		font-size: 4vmin;
+		font-family: 'Roboto', sans-serif;
+		font-weight:500;
+		border: none;
+		cursor: pointer;
+		border-radius: 5px;
+		text-align: center;
+		padding: 1vmin 2min;
+		border: 2px solid #e7e7e7; /* Green */
+		color: white;
+	}
+
+	.container .btn:hover {
+		background-color: black;
+		color: white;
+	}
