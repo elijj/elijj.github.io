@@ -113,6 +113,7 @@ a {
 		text-align: center;
 		border: 2px solid #e7e7e7; /* Green */
 		color: white;
+		padding: 0px;
 	}
 
 	.container .btn:hover {
