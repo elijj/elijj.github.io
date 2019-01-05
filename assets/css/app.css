@@ -108,11 +108,9 @@ a {
 		font-size: 4vmin;
 		font-family: 'Roboto', sans-serif;
 		font-weight:500;
-		border: none;
 		cursor: pointer;
 		border-radius: 5px;
 		text-align: center;
-		padding: 1vmin 2min;
 		border: 2px solid #e7e7e7; /* Green */
 		color: white;
 	}
